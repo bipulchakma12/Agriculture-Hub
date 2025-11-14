@@ -1,0 +1,106 @@
+.navbar .image {
+    width: 86px;
+    height: 41px;
+    object-fit: cover;
+}
+
+.slide-section img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 6px 20px #000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px #000;
+}
+
+
+.inner-about img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.inner-about {
+    position: relative;
+
+}
+
+.inner-about a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inner-about::after {
+    position: absolute;
+    content: '';
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.inner-about .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.inner-about .content h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.inner-about .content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.pest-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.accordion-button {
+
+  color: #000;
+  font-weight: 600;
+  border-radius: 10px !important;
+  box-shadow: none;
+ 
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 5px #484848;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.accordion-body img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
